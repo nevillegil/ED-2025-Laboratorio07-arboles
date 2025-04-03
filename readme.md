@@ -35,8 +35,36 @@
 En estos ejercicios vamos a trabajar con árboles binarios desde un punto de vista general, es decir, no vamos a centrarnos en las operaciones de inserción, eliminación o búsqueda ya que dependen de la estructura del árbol. En su lugar, nos centraremos en la los recorridos y en la creación de nuevas funciones que nos permitan trabajar con los árboles binarios.
 
 Para realizar estos ejercicios, vamos a utilizar un árbol binario con información entera para cada nodo. Para ello, utilizaremos el siguiente código base:
-- `arboles_ej1.pas`: programa principal que ejecutaremos para comprobar que hemos implementado correctamente el recorrido.
+- `arboles_ej1.pas`: programa principal que ejecutaremos para comprobar que hemos implementado correctamente los ejercicios.
 -  `uBinaryTree.pas`: unidad que contiene la definición del árbol binario. Deberemos implementar el recorrido en esta unidad.
+
+## Ejercicio 1.0: crear el árbol binario
+
+En el fichero `arboles_ej1.pas` hay dos funciones: `procedure crear_arbol(var a: tbinaryTree);` y `procedure crear_arbol2(var a: tbinaryTree);`. Debes implementar estos métodos suponiendo que el método `insertar` (`add`) realiza la inserción de un nodo en el árbol binario.
+Concretamente, la inserción se realiza como en un árbol binario de búsqueda, es decir:
+- Si el árbol está vacío, se inserta el nodo como raíz.
+- Si el árbol no está vacío, se compara el valor del nodo a insertar con el valor del nodo raíz. Si el valor es menor, se inserta en la subárbol izquierdo. Si el valor es mayor, se inserta en el subárbol derecho.
+
+Suponemos para este ejercicio que el árbol binario no tiene nodos duplicados.
+
+Los árboles a crear son los siguientes:
+````
+               5
+              / \
+             3   8
+            / \   \
+           1   4   9
+````
+
+````
+                10
+              /    \
+             5     20
+            / \    / \
+           3   8 15  25
+          / \
+         1   4
+````
 
 ## Ejercicio 1.1: in-order inverso
 
