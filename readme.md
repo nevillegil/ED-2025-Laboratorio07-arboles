@@ -16,6 +16,7 @@
 - [Ejercicios de Árboles](#ejercicios-de-%C3%A1rboles)
         - [Información del Proyecto](#informaci%C3%B3n-del-proyecto)
 - [Ejercicio 1: ejercicios básicos con árboles binarios](#ejercicio-1-ejercicios-b%C3%A1sicos-con-%C3%A1rboles-binarios)
+    - [Ejercicio 1.0: crear el árbol binario](#ejercicio-10-crear-el-%C3%A1rbol-binario)
     - [Ejercicio 1.1: in-order inverso](#ejercicio-11-in-order-inverso)
     - [Ejercicio 1.2: profundidad maxima](#ejercicio-12-profundidad-máxima)
     - [Ejercicio 1.3: contar nodos](#ejercicio-13-contar-nodos)
